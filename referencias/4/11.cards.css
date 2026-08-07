@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+    font-family: "DM Sans", sans-serif;
+    color: #43d8fa;
+    background-color: #201155;
+    background-image: url(https://i.pinimg.com/originals/d7/5c/4b/d75c4b64452017591270555d196bd7e0.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.deck{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.card{
+    background-color: transparent;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px 10px black ;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.card p{
+    text-align: left;
+}
+.card h2{
+    text-align: left;
+    margin-top: -10px;
+    color: white;
+}
+.card button{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: #ffffff;
+    background-color: #201155;
+    margin-top: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+.card-categoria{
+    color: #3ab7d39a;
+    font-size: 15px;
+}
+
+.capsula{
+    background-color: #4e3d8b;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: #b2d8e0ab;
+}
+.card img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 300px;
+}
+.card-corpo{
+    padding: 20px;
+    padding-top: 0;
+}
+

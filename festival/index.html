@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./geral.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Festival</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://via.placeholder.com/150x50?text=LOGO" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Line-up</a></li>
+            <li><a href="#">Ingressos</a></li>
+            <li><a href="#">Informações</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="Turismo.html">Turismo</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" placeholder="Pesquisar...">
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section class="carousel-container">
+        <div class="carousel-slides">
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+1" alt="1"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+2" alt="2"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+3" alt="3"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+4" alt="4"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+5" alt="5"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+6" alt="6"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+7" alt="7"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+8" alt="8"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+9" alt="9"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+10" alt="10"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1920x1080?text=Slide+11" alt="11"></div>
+        </div>
+        <!-- Setas decorativas -->
+        <div class="seta seta-esq">&#10094;</div>
+        <div class="seta seta-dir">&#10095;</div>
+        <!-- Menu de navegação -->
+        <div class="carousel-menu">
+            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+            <div class="dot"></div><div class="dot"></div>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="cards-section">
+        <a href="#" class="hero-card">
+            <div class="card-bg" style="background-image: url('https://via.placeholder.com/400x500/222222/ffffff?text=Card+1');"></div>
+            <div class="card-content">
+                <h2>Palco Rock</h2>
+                <p>As melhores bandas.</p>
+            </div>
+        </a>
+        <a href="#" class="hero-card">
+            <div class="card-bg" style="background-image: url('https://via.placeholder.com/400x500/222222/ffffff?text=Card+2');"></div>
+            <div class="card-content">
+                <h2>Palco Pop</h2>
+                <p>Até o amanhecer.</p>
+            </div>
+        </a>
+        <a href="#" class="hero-card">
+            <div class="card-bg" style="background-image: url('https://via.placeholder.com/400x500/222222/ffffff?text=Card+3');"></div>
+            <div class="card-content">
+                <h2>Eletrônica</h2>
+                <p>Batidas que movem.</p>
+            </div>
+        </a>
+        <a href="#" class="hero-card">
+            <div class="card-bg" style="background-image: url('https://via.placeholder.com/400x500/222222/ffffff?text=Card+4');"></div>
+            <div class="card-content">
+                <h2>Experiências</h2>
+                <p>Além da música.</p>
+            </div>
+        </a>
+    </section>
+
+    <!-- Informações -->
+    <section class="info-section">
+        <button class="btn-noticias">TODAS AS NOTÍCIAS</button>
+        <div class="citacao">
+            <blockquote>
+                "Percebi que as armas que tenho para conseguir tornar o mundo um pouco melhor são a música e o festival. É o que eu sei fazer bem."
+            </blockquote>
+            <cite>- Roberto Medina</cite>
+        </div>
+    </section>
+
+    <!-- Patrocinadores -->
+    <section class="patrocinadores">
+        <h2>Patrocinadores Oficiais</h2>
+        <div class="patrocinadores-lista">
+            <img src="https://via.placeholder.com/150x80?text=Patrocinio" alt="Patrocinador 1">
+            <img src="https://via.placeholder.com/150x80?text=Patrocinio" alt="Patrocinador 2">
+            <img src="https://via.placeholder.com/150x80?text=Patrocinio" alt="Patrocinador 3">
+            <img src="https://via.placeholder.com/150x80?text=Patrocinio" alt="Patrocinador 4">
+            <img src="https://via.placeholder.com/150x80?text=Patrocinio" alt="Patrocinador 5">
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato-section">
+        <h2>Fale Conosco</h2>
+        <form class="form-contato">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
+            <textarea name="comentarios" rows="5" placeholder="Seus Comentários" required></textarea>
+            
+            <div class="checkbox-group">
+                <input type="checkbox" id="privacidade" required>
+                <label for="privacidade">Aceito a política de privacidade</label>
+            </div>
+
+            <button type="submit" class="btn-enviar">ENVIAR</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="rodape-coluna">
+            <h3>Sobre o Festival</h3>
+            <a href="#">História</a>
+            <a href="#">Sustentabilidade</a>
+            <a href="#">Acessibilidade</a>
+            <a href="#">Imprensa</a>
+        </div>
+        <div class="rodape-coluna">
+            <h3>Ingressos</h3>
+            <a href="#">Tipos de Ingresso</a>
+            <a href="#">Meia-Entrada</a>
+            <a href="#">Postos de Venda</a>
+            <a href="#">Regulamento</a>
+        </div>
+        <div class="rodape-coluna">
+            <h3>Informações Úteis</h3>
+            <a href="#">Como Chegar</a>
+            <a href="#">O que Pode e Não Pode</a>
+            <a href="#">Alimentação</a>
+            <a href="#">Guarda-Volumes</a>
+        </div>
+        <div class="rodape-coluna">
+            <h3>Siga-nos</h3>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">TikTok</a>
+        </div>
+    </footer>
+</body>
+</html>

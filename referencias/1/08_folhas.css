@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=ZCOOL+XiaoWei&display=swap');
+
+body{/*comentario*/
+    background-color: black;
+    text-align: center;
+    font-family: "Kalnia Glaze", serif;
+}
+
+h1{
+    color:rgb(255, 255, 255) ;
+    text-align: center ;
+}
+
+p{
+    color: white;
+    text-align: center;
+}

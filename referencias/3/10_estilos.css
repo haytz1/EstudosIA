@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+    font-family: "DM Sans", sans-serif;
+    color: #3ab8d3;
+    background-color: #201155;
+}
+
+.cabecalho{
+    text-align: center;
+    background-color: #16326d;
+    border-radius: 15px;
+    margin: 25px;
+    padding: 5px;
+    box-shadow: 5px 5px 15px 0px ;
+}
+
+.cabecalho h1{
+    font-weight: bold;
+    animation: trocaCor 3s infinite alternate;
+    margin: 0;
+}
+
+@keyframes trocaCor {
+  0% { color: red; }
+  33% { color: yellow; }
+  66% { color: red; }
+  100% { color: purple; }
+}
+
+.cabecalho p{
+    margin: 5px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+hr{
+    width: 20%;
+}
+
+.botao{
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.botao-principal{
+    border: none;
+    background-color: #7c8eb4;
+    color: white;
+}
+
+.botao-invertido{
+    border: 2px solid #7c8eb4;
+    background-color: #16326d;
+    color: #7c8eb4;
+}
+
+.gif{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 35%;
+}

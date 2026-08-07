@@ -1,0 +1,69 @@
+body{
+    background-color: #011C6B;
+    color: white;
+    font-family: "Source Serif 4", serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiMgfLWln71bybzvIj0mP1IFlYL-ppsrgZewAk1Z69Q&s=10);
+}
+
+.texto-animado {
+  font-size: 2rem;
+  font-weight: bold;
+  /* Chama a animação chamada "trocaCor" com duração de 4 segundos, infinita e vai e volta */
+  animation: trocaCor 1s infinite alternate;
+}
+
+@keyframes trocaCor {
+  0% { color: red; }
+  33% { color: blue; }
+  66% { color: green; }
+  100% { color: purple; }
+}
+
+.sub{
+    text-align: center;
+    color: chartreuse;
+    font-size: 25px;
+}
+
+.cabecalho{
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+}
+
+.secao{
+    text-align: center;
+    color: #667fc7;
+    font-size: 30px;
+}
+
+.linha{
+    margin: 20px auto;
+    width: 15%;        /* Largura da linha (ocupa metade da tela) */
+}
+
+.card{
+    background-color: #2443a0;
+    width:300px;
+    text-align: center;
+}
+
+.cardtitulo{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.carddescricao{
+    text-align: left;
+}
+
+.cardbotao{
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+
+

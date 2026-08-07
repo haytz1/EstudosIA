@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    background-color: #111;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #43d8fa;
+}
+.search-box input {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+/* Rodapé */
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.rodape-coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rodape-coluna h3 {
+    color: #43d8fa;
+    margin-bottom: 10px;
+}
+.rodape-coluna a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.rodape-coluna a:hover {
+    color: #fff;
+}

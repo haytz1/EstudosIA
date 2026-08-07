@@ -1,0 +1,16 @@
+.anotaçoes{
+    color: aliceblue;/*Muda a cor dos textos */
+    font-size: large;/*Muda o tamanho das letras */
+    background-color: aliceblue;/*Muda a cor do fundo */
+    text-align: center;/*centraliza os textos */
+    width: 20px;/*Muda a largura ou tamanho das coisas */
+    border-radius: 15px; /* Cantos arredondados suaves */
+    margin: 200px;/*da espaço das bordas*/
+    box-shadow: 10px 10px 15px 0px ; /*Da sombra */
+    padding: 15px;/*Aumenta o Tamnho do quadrado */
+    border: 1px inset #5e5c5c;/*Adiciona borda */
+    font-weight: 100;/*Peso da fonte */
+    width: fit-content;/*auto ajuste*/
+    justify-content: center;/*centraliza no meio*/
+    gap: 100px; /*Da espaço das coisas*/
+}
